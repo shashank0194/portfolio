@@ -57,7 +57,7 @@ let projectArray = [
       "MongoDB",
     ],
     repoLink: "https://github.com/akhilsdeportfolio/EV-Management",
-    demoLink: "https://medium.com/@shashank0194/your-ev-assistant-a1b1910297fe",
+    demoLink: "https://zoomcarcom.herokuapp.com/",
     type: "A collaborative project built by a team of 5 members under 2 weeks.",
     blogLink: "https://medium.com/@shashank0194/your-ev-assistant-a1b1910297fe",
     features: [
