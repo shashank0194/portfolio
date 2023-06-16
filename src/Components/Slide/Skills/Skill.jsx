@@ -4,6 +4,7 @@ import React, { useState} from "react";
 // import Animations from "../../utilities/Animations";
 import "./Skill.css";
 import { MainHeadingWrapper} from "../../Elements/Elements";
+import programmingSkils from "./img/programming-skills.svg"
 
 const Resume = (props) => {
   /* STATES */
@@ -337,7 +338,7 @@ const Resume = (props) => {
       >
         <img
           className="bullet-logo"
-          src={require(`./img/${bullet.logoSrc}`).default}
+          src={programmingSkils}
           alt="B"
         />
         <span className="bullet-label">{bullet.label}</span>

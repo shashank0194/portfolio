@@ -10,7 +10,8 @@ import Head from "./Components/Head/Head";
 import Slide from "./Components/Slide/Slide";
 import lightHome from "./Components/Images/sceneOne.svg";
 import darkHome from "./Components/Images/sceneOneDark.svg";
-
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 // body: "#0a192f",
 // #a7bbc7
 
@@ -48,6 +49,18 @@ function App() {
   return (
     <ThemeProvider theme={themes[currentTheme]}>
       <div className="App">
+        <ToastContainer
+          position="top-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="light"
+        />
         <ToTop></ToTop>
         <Head currentTheme={currentTheme} themeToggler={themeToggler}></Head>
         <About></About>

@@ -7,9 +7,10 @@ import styled from "styled-components";
 // import medium from "../Icons/medium.svg";
 
 import { MainHeadingWrapper} from "../Elements/Elements";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import emailjs from "emailjs-com";
+// import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 
 const ContactWrapper = styled.div`
   background-color: ${(props) => props.theme.body};
@@ -134,7 +135,7 @@ function Contact({ currentTheme }) {
     setData({ ...data, [name]: value });
   };
 
-  const success = () => toast.dark("Successfully Sent");
+  const success = () => toast.success("Successfully Sent");
   const failure = () => toast.error("Something went wrong");
 
   const onSubmitHandler = async (e) => {
@@ -167,7 +168,6 @@ function Contact({ currentTheme }) {
         <h1>Get In Touch</h1>
         <div></div>
       </MainHeadingWrapper>
-      <ToastContainer />
       <ContactMain>
         <Form>
           <form onSubmit={onSubmitHandler}>
