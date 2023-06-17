@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-//   font-family: 'Lato', sans-serif;
-//   font-family: 'Montserrat', sans-serif;
-//   font-family: 'Rajdhani', sans-serif;
-
 export const MainHeadingWrapper = styled.div`
   text-align: center;
   padding: 30px;
@@ -21,7 +17,6 @@ export const MainHeadingWrapper = styled.div`
       font-size: 1.9rem;
     }
 
-    /* font-family: "Rajdhani", sans-serif; */
   }
   > div {
     border-bottom: 4px solid ${(props) => props.theme.secondary};
@@ -58,7 +53,6 @@ export const ParagraphWrapper = styled.div`
     letter-spacing: 0.2ch;
     font-weight: 400;
     text-align: ${(props) => (props.justified ? "justify" : "left")};
-    /* font-family: "Lato", sans-serif; */
     @media (max-width: 1100px) {
       font-size: 1rem;
     }

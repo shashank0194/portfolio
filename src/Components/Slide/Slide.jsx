@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import Projects from "./Projects/Projects";
 import TimeLine from "./TimeLine/TimeLine";
-// import Skillset from "./Skills/Skillset";
 import Skill from './Skills/Skill'
 
 import { ParagraphWrapper } from "../Elements/Elements";

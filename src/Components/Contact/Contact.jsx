@@ -1,15 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-// import phone from "../Icons/phone.svg";
-// import gmail from "../Icons/gmail.svg";
-// import github from "../Icons/github.svg";
-// import linkedin from "../Icons/linkedin.svg";
-// import medium from "../Icons/medium.svg";
-
 import { MainHeadingWrapper} from "../Elements/Elements";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-// import emailjs from "emailjs-com";
 import emailjs from '@emailjs/browser';
 
 const ContactWrapper = styled.div`
@@ -92,7 +85,6 @@ const FindMeElseWhere = styled.div`
   }
   i {
     font-size: 25px;
-    // color: ${(props) => props.theme.fontColor};
     color: ${(props) => props.theme.secondary};
   }
 `;
@@ -207,7 +199,6 @@ function Contact({ currentTheme }) {
           <div title="Click here to call">
             <div>
               <a target="_blank" rel="noreferrer" href="tel:+917905374275">
-                {/* <i className="fas fa-phone-square-alt"></i> */}
                 <i className="fas fa-phone-alt"></i>
               </a>
             </div>
@@ -224,7 +215,6 @@ function Contact({ currentTheme }) {
                 rel="noreferrer"
                 href="mailto:shashanko194@gmail.com"
               >
-                {/* <i className="fas fa-envelope-square"></i> */}
                 <i className="fas fa-envelope"></i>
               </a>
             </div>
@@ -245,7 +235,6 @@ function Contact({ currentTheme }) {
                 rel="noreferrer"
                 href="https://github.com/shashank0194"
               >
-                {/* <i className="fab fa-github-square"></i> */}
                 <i className="fab fa-github"></i>
               </a>
             </div>
@@ -286,7 +275,6 @@ function Contact({ currentTheme }) {
                 rel="noreferrer"
                 href="https://medium.com/@shashank0194"
               >
-                {/* <i className="fab fa-medium"></i> */}
                 <i className="fab fa-medium-m"></i>
               </a>
             </div>
@@ -308,8 +296,3 @@ function Contact({ currentTheme }) {
 
 export default Contact;
 
-// import phone from "../Icons/phone.svg";
-// import gmail from "../Icons/gmail.svg";
-// import github from "../Icons/github.svg";
-// import linkedin from "../Icons/linkedin.svg";
-// import medium from "../Icons/medium.svg";

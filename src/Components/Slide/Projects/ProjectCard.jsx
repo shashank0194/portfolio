@@ -11,10 +11,7 @@ const ProjectCardWrapper = styled.div`
   justify-content: center;
   align-items: center;
   margin: 20px;
-  border-radius: 5px;
-
-  /* box-shadow: -1px 1px 10px #9e9b9b; */
-
+  border-radius: 5px;  
   @media (max-width: 1000px) {
     width: 90%;
   }

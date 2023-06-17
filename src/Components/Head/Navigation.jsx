@@ -12,8 +12,6 @@ const NavBar = styled.div`
   height: 7vh;
   z-index: 1000;
   transition: all 300ms ease-out;
-  /* background-color: ${(props) => props.theme.body};
-  color: ${(props) => props.theme.fontColor}; */
   background-color: inherit;
   color: inherit;
 `;
@@ -121,7 +119,6 @@ function Navigation({ themeToggler, currentTheme }) {
           }
         />
       </NavItem>
-      {/* <NavItem></NavItem> */}
     </NavBar>
   );
 }

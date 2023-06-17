@@ -32,12 +32,6 @@ const Responsibilities = styled.div`
 
 function ChronoTimeline({ currentTheme }) {
   const items = [
-    // {
-    //   title: "October 2020 - Present",
-    //   cardSubtitle: "Masai School",
-    //   cardTitle: "Full Stack Web Development",
-    //   cardDetailedText: ["A full stack web development course."],
-    // },
     {
       title: "July 2011 - June 2015",
       cardSubtitle: "Narendra Dev University of Agriculture and Technology",
@@ -46,30 +40,6 @@ function ChronoTimeline({ currentTheme }) {
         "An undergraduate Computer Engineering course, that includes the study, design, development, construction, and testing of mechanical and thermal sensors and devices, including tools, engines, and machines. Mechanical engineering careers center on creating technologies to meet a wide range of human needs.",
       ],
     },
-    // {
-    //   title: "June 2020- July 2020",
-    //   cardTitle: "Web Development Intern",
-    //   cardSubtitle: "CrackMbaInterview",
-    //   cardDetailedText: [
-    //     "Revamped the existing website.",
-    //     "Updated WordPress and plugins.",
-    //     "Integrated authentication and authorization.",
-    //     "Integrated payment gateway.",
-    //   ],
-    //   internship: true,
-    // },
-    // {
-    //   title: "January 2020- June 2020",
-    //   cardTitle: "Digital Marketing and Web Development Intern",
-    //   cardSubtitle: "Cubicode Digital Media LLP",
-    //   cardDetailedText: [
-    //     "Obtained requirements from clients.",
-    //     "Built websites with WordPress.",
-    //     "Maintained websites with WordPress and HTML/CSS.",
-    //     "Keyword research for SEO.",
-    //   ],
-    //   internship: true,
-    // },
     {
       title: "June 2009- June 2011",
       cardSubtitle: "Bright Way College",

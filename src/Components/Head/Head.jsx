@@ -41,7 +41,6 @@ const HeaderContent = styled.div`
   margin: 0px auto;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #03192c; */
   padding: 50px;
   > div {
     margin: 20px auto;
@@ -137,7 +136,6 @@ const Scroller = styled.div`
   margin: 0px auto;
   width: 100px;
   @media (max-width: 1000px) {
-    /* display: none; */
     width: 50px;
   }
 `;
